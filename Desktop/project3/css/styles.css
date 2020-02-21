@@ -1,3 +1,19 @@
-#story {
-    display: none;
-  }hover
+#topcontainer {
+  background: url("../images/backgrounds/h_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mouseclick {a
+  position: absolute;
+  bottom: 12px
+}
+#aboutuscont {
+  padding: 20px;
+}
+
+#portfolio div img {
+  width: 100%;
+}
+#portfolio div {
+  padding: 10px;
+}
