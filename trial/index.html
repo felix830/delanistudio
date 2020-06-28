@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
 
-div {
-
-    width: 7px;
-    height: 8px;
-    background-color: crimson;
-    margin: 6px 0;
-
+.container {
+    display: inline-block;
+    cursor: pointer;
 }
 
-</style>
-</head>
-<body>
+.bar1, .bar2, .bar3 {
+    widows: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
-<h2>Menu Icon</h2> 
+/* this is to rotate first bar */
+.change .bar1 {
+-webkit-transform: rotate(45deg);
+translate: (-9px,6px);
+transform: rotate(-45deg);
+translate: (-9px,6px);  
+}
 
-<div></div>
-<div></div>
-<div></div>
+/*This is to fade out second bar */
 
-</body>
-</html>
+.change .bar2 {opacity: 0;}
+
+/* This is rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg)
+    translate(-8px, -8px)
+    transform: rotate(45deg)
+    translate(-8px, -8px) ;
+}
+.
