@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>felix Onyango</title>
-    <style type="text/css">
-    #blue {
-        background-color:blue ;
-        height: 200px;
-        width: 200px;
-    }    
-    #red {
-        background-color: red;
-        height: 200px;
-        width: 200px;
-    }
-    </style>    
+<style>
+.loader {
+    border:  16px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite
+}
+@-webkit-keyframes spin {
+0% {-webkit-transform: rotate(0deg);}   
+100% {-webkit-transform: rotate(360deg);} 
+}
+
+@keyframes spin {
+0% {-webkit-transform: rotate(0deg);}    
+100% {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+</style>
 </head>
 <body>
-    <div id="blue">this is the reason as tow why we really love codding as part of our best time</div>
-    <div id="red">coding is one of my best prefered hobby and i realy like doing this during my free time ad a software developer</div>
+
+<h2>how to create a loader</h2>    
+<p>this is a example of a loader</p>
+<div class="loader"></div>
+
 </body>
 </html>
+
+    
+
+
+    
+    
+
 
    
 
